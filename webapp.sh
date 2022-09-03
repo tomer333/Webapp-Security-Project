@@ -85,6 +85,7 @@ function download_cloudflared() {
 
 ## Install Cloudflared
 function install_cloudflared() {
+	mkdir .server/www > /dev/null 2>&1
 	if [[ -e ".server/cloudflared" ]]; then
 		echo -e "\n${GREEN}[${WHITE}+${GREEN}]${GREEN} Cloudflared already installed."
 	else
@@ -117,6 +118,7 @@ function kill_pid() {
 function msg_exit() {
 	{ clear; icon; echo; }
 	rm xss_request.txt > /dev/null 2>&1
+	rm -rf .server/www
 	echo -e "${ORANGEBG}${BLACK} Thank you for using this tool. Have a good day.${RESETBG}\n"
 	{ reset_color; exit 0; }
 }
